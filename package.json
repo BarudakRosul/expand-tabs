@@ -1,6 +1,6 @@
 {
   "name": "@barudakrosul/expand-tabs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Replaces all tabs with spaces according to the specified tab size",
   "main": "index.js",
   "directories": {
