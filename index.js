@@ -7,7 +7,7 @@ require("@barudakrosul/split-lines");
  * @returns {string} - The string with tabs replaced by spaces.
  */
 String.prototype.expandTabs = function(tabsize = 8) {
-  return this.splitLines().map(line => {
+  return this.splitLines(true).map(line => {
     let result = "";
     let pos = 0;
 
@@ -23,5 +23,5 @@ String.prototype.expandTabs = function(tabsize = 8) {
     }
 
     return result;
-  }).join("\n");
+  }).join("");
 };
